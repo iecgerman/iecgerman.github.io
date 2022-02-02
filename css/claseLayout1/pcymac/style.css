@@ -55,6 +55,11 @@ a {
 
 /* MAIN SECTION */
 
+main {
+    width: 100vw;
+    height: auto;
+}
+
 .servicios-img {
     width: 28vw;
     height: 50vh;
@@ -79,6 +84,7 @@ a {
     position: relative;
     border-radius: 0.5rem;
     margin: 8vh 2vw;
+    position: relative;
 }
 footer {
     width: 100vw;
@@ -92,6 +98,7 @@ footer {
 } */
 .redes, .derechos {
     display: inline-block;
+    position: relative;
     margin: 1rem;
 }
 .derechos {
