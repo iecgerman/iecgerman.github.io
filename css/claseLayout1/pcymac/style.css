@@ -70,7 +70,7 @@ main {
     display: inline-block;
     position: relative;
     margin: 0vh 0;
-    background-color: rgba(12, 122, 224, 0.288);
+    background-color: black;
 }
 
 .box {
@@ -79,7 +79,7 @@ main {
     height: 50vh;
     background-color: white;
     /* box-shadow: 0 .25rem 1.75rem rgba(30,34,40,.07); */
-    box-shadow: 5px 5px 3px 0px rgba(94, 92, 126, 0.514);
+    box-shadow: 5px 5px 5px 0px rgb(255, 255, 255);
     display: inline-block;
     position: relative;
     border-radius: 0.5rem;
