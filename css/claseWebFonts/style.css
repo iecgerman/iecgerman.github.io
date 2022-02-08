@@ -1,10 +1,10 @@
 /* Esto no es una buena practica, debe de ir en el html abajo del meta link */
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap'); */
 
-@font-face {
+/* @font-face {
     font-family: "roboto-regular";
     src: url(./fonts/roboto-regular.ttf);
-}
+} */
 
 html {
     font-size: 62.5%;
