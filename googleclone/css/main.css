@@ -1,10 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Rancho;
-  font-40px;
-  /* font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif; */
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -50,3 +48,59 @@ nav .nav-right-section img {
   margin-left: 10px;
 }
 
+/* MAIN SECTION */
+
+main {
+  margin-top: 150px;
+  text-align: center; /* ME CENTRO TODOS LOS SECTIONS DEL MAIN */
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-button: 35px;
+}
+
+main .main-logo img {
+  width: 300px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto; /* PARA QUE SE PUEDA POSICIONAR EN LA PARTE DE EN MEDIO */
+  margin-bottom: 35px; /* LA SECTION DE INPUT EMPUJARA UN POCO LOS BOTONES */
+}
+
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex; /* FLEX NOS AYUDA A COLOCAR LOS 3 ELEMENTOS DE FORMA LINEAL */
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none; /* NOS QUITA EL BORDE CUANDO LE DAMOS CLICK A UN INPUT */
+}
+
+
+
+/* header, body, main, section, img {
+  border: solid black;
+}
+
+body {
+  background-color: beige;
+}
+
+main {
+  background-color: aqua;
+}
+
+header {
+  background-color: blueviolet;
+} */
