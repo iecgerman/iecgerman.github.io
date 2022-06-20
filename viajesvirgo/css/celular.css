@@ -1,0 +1,54 @@
+:root {
+      /* PALETA DE COLORES */
+      --amarillo-guarico: #F6DC00;
+      --dark-blue: #475179;
+      --cyan: #168695;
+      --blanco: #EBEEF1;
+      --carbon: #010101;
+      --gris: #717B7E;
+}
+
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;      
+}
+
+html {
+      font-size: 62.5%;
+      font-family: 'Lato', sans-serif;      
+}
+
+header {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      min-width: 320px;
+      text-align: center;
+}
+
+header img {
+      width: 320px;
+      height: 240px;
+      margin-top: 60px;
+      align-self: center;
+}
+
+.header--title-container {
+      width: 90%;
+      min-width: 288px;
+      max-width: 900px;
+      height: 218px;
+      margin-top: 10px;
+      text-align: center;
+      align-self: center;
+}
+
+header h1, p {
+      color: var(--dark-blue);
+      font-size: 2.4rem;
+      margin-top: 2rem;
+}
+
