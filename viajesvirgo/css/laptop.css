@@ -1,0 +1,10 @@
+@media screen and (min-width: 1366px) {
+      .logo-menu {
+            width: 100%;
+            max-width: 200px;
+      }
+      .main-menu__link {
+            font-size: 4rem;
+            padding-left: 3rem;
+      }
+}

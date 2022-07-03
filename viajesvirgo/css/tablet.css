@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+      .main-menu {
+            flex-direction: row;
+            justify-content: center;
+      }
+      .logo-menu {
+            width: 100%;
+      }
+      .main-menu__link {
+            font-size: 2rem;
+      }
+}
