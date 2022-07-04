@@ -27,6 +27,14 @@ html {
       background-color: var(--blanco);      
 }
 
+a {
+      text-decoration: none;
+}
+
+/* a:hover {
+      text-decoration: underline;
+} */
+
 /********************/
 /**     HEADER     **/
 /********************/
@@ -60,59 +68,58 @@ html {
 }
 
 
-/** PLAYAS **/
+/***********************************/
+/**                               **/
+/**             MAIN              **/
+/**                               **/
+/***********************************/
 
-.main-playas-container {
+.contenedor__cards {
       width: 100%;
-      height: auto;
-      padding-top: 0px;
-      padding-bottom: 80px;
+}
+
+.card {
+      background-color: var(--blanco);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      margin-bottom: 20px;
+}
+
+.card__thumbnail {
+      width: 100%;
+      height: 100%;
+      max-width: 475px;
+      display: inline-block;
+}
+
+.card__img {
+      width: 100%;
+}
+
+.card__titulo {
       text-align: center;
-}
-
-.main-cancun-container-title {
-      width: 90%;
-      margin: 0px auto;
-}
-
-.main-playas-container .backgroundImg-cancun {
-      width: 100%;
-      height: 320px;
-      margin: 0px auto;      
-      margin-bottom: 20px;
-      background: url(../imagenes/celular/playas/cancun_1x.jpg) center/cover no-repeat;
-}
-
-.main-playas-container .backgroundImg-cabos {
-      width: 100%;
-      height: 320px;
-      margin: 0 auto;
-      margin-bottom: 20px;
-      background: url(../imagenes/celular/playas/los_cabos_1x.jpg) center/cover no-repeat;
-}
-.main-playas-container .backgroundImg-rn {
-      width: 100%;
-      height: 320px;
-      margin: 0 auto;
-      margin-bottom: 20px;
-      background: url(../imagenes/celular/playas/rivera_nayarit_1x.jpg) center/cover no-repeat;
-}
-.main-playas-container .backgroundImg-pv {
-      width: 100%;
-      height: 320px;
-      margin: 0px auto;
-      margin-bottom: 20px;
-      background: url(../imagenes/celular/playas/puerto_vallarta_1x.jpg) center/cover no-repeat;
-}
-
-.main-playas-container--title h2 {
+      margin-top: 10px;
       font-size: 4rem;
       font-weight: 900;
-      color: var(--dark-blue);
-      text-align: center;
+      text-transform: uppercase;
 }
 
-/**  CONTACTO **/
+.card__enlace {
+      color: var(--dark-blue);
+
+}
+
+
+
+
+
+/***********************************/
+/**                               **/
+/**    FORMULARIO DE CONTACTO     **/
+/**                               **/
+/***********************************/
 
 .form {
       display: flex;
