@@ -67,14 +67,15 @@
       <main>
 
             <section>
-                  <form class="form">
+                  <form class="form" action="https://formspree.io/f/mjvlqwlg"
+                  method="POST">
                         <div class="form__container">
                               <h2 class="form__title">RESERVACIÓN</h2>
-                              <input type="text" class="form__input" placeholder="NOMBRE:" required>
-                              <input type="email" class="form__input" placeholder="EMAIL:" required>
-                              <input type="celular" class="form__input" placeholder="CELULAR:" required>
-                              <textarea class="form__input form__input--message" placeholder="MENSAJE:"></textarea>
-                              <input type="submit" value="ENVIAR" class="form__cta">
+                              <input type="text" class="form__input" placeholder="NOMBRE:" name="name" required >
+                              <input type="email" class="form__input" placeholder="EMAIL:" name="email" required >
+                              <input type="celular" class="form__input" placeholder="CELULAR:" name="celular" required >
+                              <textarea class="form__input form__input--message" placeholder="MENSAJE:" name="message" ></textarea>
+                              <input type="submit" value="ENVIAR" class="form__cta" >
                         </div>
                   </form>
             </section>
