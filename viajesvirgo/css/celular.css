@@ -121,6 +121,25 @@ a {
 /**                               **/
 /***********************************/
 
+.contenedor__certificado {
+      display: flex;
+      width:90%;
+      font-size: 4rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      margin: 1.6rem auto;
+      text-align: center;   
+      justify-content: center;
+}
+
+
+.contenedor__certificado img {
+      width: 100%;
+      margin-top: 3.2rem;
+}
+
+
+
 .form {
       display: flex;
       background-color: var(--blanco);
