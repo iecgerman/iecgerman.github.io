@@ -132,6 +132,11 @@ a {
       justify-content: center;
 }
 
+.card__certificado {
+      display: flex;
+      flex-direction: column;
+}
+
 
 .contenedor__certificado img {
       width: 100%;
