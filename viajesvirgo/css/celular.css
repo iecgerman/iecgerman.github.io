@@ -111,7 +111,37 @@ a {
 
 }
 
+/***********************************/
+/**                               **/
+/**            BANNER             **/
+/**                               **/
+/***********************************/
 
+.contenedor__banner {
+      width: 100%;
+}
+
+.banner__img {
+      width: 100%;
+}
+
+.contenedor__principal-info-form {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+}
+
+.contenedor__informacion-de-paquete {
+      width: 100%;
+      max-width: 475px;
+      background-color: var(--blanco);
+      color: var(--cyan);
+      font-size: 2rem;
+      line-height: 3rem;
+      text-align: center;
+      margin: 0 auto;
+}
 
 
 
@@ -123,7 +153,7 @@ a {
 
 .contenedor__certificado {
       display: flex;
-      width:90%;
+      width:70%;
       font-size: 4rem;
       font-weight: normal;
       text-transform: uppercase;
@@ -132,30 +162,24 @@ a {
       justify-content: center;
 }
 
-.card__certificado {
-      display: flex;
-      flex-direction: column;
-}
-
-
 .contenedor__certificado img {
       width: 100%;
       margin-top: 3.2rem;
 }
 
-
-
-.form {
+ .form {
       display: flex;
       background-color: var(--blanco);
       width: 90%;
       height: auto;
       max-width: 475px;
       min-height: 100%;
-      border-radius: 1em;
       padding: 3.5em 1.5em;
       margin: auto;
-
+}
+.form--promociones {
+      background-color: var(--dark-blue);
+      width: 100%;
 }
 
 .form__container {
