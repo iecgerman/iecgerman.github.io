@@ -12,4 +12,7 @@
       .card {
             padding: 20px;
       }
+      .contenedor__principal-footer {
+            font-size: 1.6rem;
+      }
 }
